@@ -1,0 +1,16 @@
+header {
+  background-color: blue;
+}
+
+img {
+  opacity: 0.5;
+}
+
+.headline-container {
+  background-image: url("main-photo.jpg");
+  border-style: solid;
+  background-size: cover;
+  width: 1140px;
+  height: 570px;
+
+}
