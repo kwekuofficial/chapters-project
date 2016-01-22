@@ -1,5 +1,18 @@
+.donate {
+  float: right;
+  margin: -73px 160px 0 0;
+  padding: 15px;
+}
+
+.community-dev {
+  padding: 0 0 0 15px;
+  margin: 15px 0 0 0;
+  float: left;
+}
+
 header {
-  background-color: blue;
+  background-color: #006BBB;
+  height: 0 0 0 0;
 }
 
 img {
@@ -8,13 +21,20 @@ img {
 
 .headline-container {
   background-image: url("main-photo.jpg");
-  border-style: solid;
+
   background-size: cover;
   width: 1140px;
   height: 570px;
 
 }
 
+.headline-text {
+  width: 450px;
+  margin: 35px 15px 0 0;
+  float: right;
+  color: #00355B;
+  font-weight: bold;
+}
 
 
 .main-navigation {
@@ -28,4 +48,25 @@ img {
   color: #FFF;
   margin: 0 15px 0 0;
 
+}
+
+.mid-navigation {
+  width: 1140px;
+  height: 100px;
+  background-color: #FFB133;
+  margin: -115px 0 0 0;
+}
+
+.support-us {
+  margin: 0 0 0 495px;
+  padding: 15px 0 0 0;
+}
+
+.support-us > h3 {
+  margin: -45px 0 0 85px;
+}
+
+
+.support.png {
+  margin: 0 0 0 -20px;
 }
