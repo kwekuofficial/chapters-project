@@ -1,8 +1,17 @@
 .donate {
   float: right;
-  margin: -73px 160px 0 0;
+  margin: -63px 160px 0 0;
   padding: 15px;
 }
+
+.donate.png {
+    margin: 15px 0 0 -20px;
+}
+
+.donate > h3 {
+  margin: -45px 0 0 85px;
+}
+
 
 .community-dev {
   padding: 0 0 0 15px;
@@ -12,12 +21,18 @@
 
 header {
   background-color: #006BBB;
-  height: 0 0 0 0;
-}
-
-img {
+  height: 110px;
+  margin: 0 0 0 0;
 
 }
+
+header > img {
+  margin: 5px 0 0 0;
+  padding: 5px 0 0 0;
+  border-style: solid;
+  border-color: #FFF;
+}
+
 
 .headline-container {
   background-image: url("main-photo.jpg");
@@ -38,7 +53,7 @@ img {
 
 
 .main-navigation {
-  margin: 0 0 0 0;
+  margin: 15px 0 0 0;
   float: right;
 }
 
@@ -57,6 +72,22 @@ img {
   margin: -115px 0 0 0;
 }
 
+.model-tab {
+  margin: 15px 0 0 435px;
+}
+
+.model-text {
+  width: 575px;
+}
+
+.our_model.png {
+  margin: 0 0 0 50px;
+}
+
+.our-model.png {
+  margin: 0 40px 0 600px;
+}
+
 .support-us {
   margin: 0 0 0 495px;
   padding: 15px 0 0 0;
@@ -69,4 +100,9 @@ img {
 
 .support.png {
   margin: 0 0 0 -20px;
+}
+
+img {
+  max-width: 100%
+  height: auto;
 }
