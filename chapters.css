@@ -1,3 +1,11 @@
+.check.png {
+  margin: 0 0 0 0;
+}
+
+div {
+  margin: 0 0 0 0;
+}
+
 .donate {
   float: right;
   margin: -63px 160px 0 0;
@@ -10,6 +18,12 @@
 
 .donate > h3 {
   margin: -45px 0 0 85px;
+}
+
+.donate-today {
+  margin: 85px 125px 0 0;
+  float: right;
+  width: 175px;
 }
 
 
@@ -52,6 +66,14 @@ header > img {
 }
 
 
+
+.last-wrapper {
+  margin: 0 0 0 0;
+  background-color: #006BBB;
+  height: 300px;
+  color: #FFF;
+}
+
 .main-navigation {
   margin: 15px 0 0 0;
   float: right;
@@ -78,6 +100,15 @@ header > img {
 
 .model-text {
   width: 575px;
+  margin: 0 0 0 0;
+}
+
+.model-text img {
+  margin: 0 0 -125px -85px;
+}
+
+.model-text .text-margin {
+  margin: 0 0 0 80px;
 }
 
 .our_model.png {
@@ -86,6 +117,11 @@ header > img {
 
 .our-model.png {
   margin: 0 40px 0 600px;
+}
+
+.right-side {
+  margin: -495px 0 0 0;
+  float: right;
 }
 
 .support-us {
@@ -100,6 +136,20 @@ header > img {
 
 .support.png {
   margin: 0 0 0 -20px;
+}
+
+.trophy.png {
+  margin: 0 0 0 0;
+}
+
+.textcloud.png {
+  margin: 0 0 0 0;
+}
+
+.volunteer {
+  margin: 85px 0 0 125px;
+  float: left;
+  width: 175px;
 }
 
 img {
