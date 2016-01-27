@@ -1,5 +1,31 @@
+a.btn.btn-default {
+  border-color: #FFF
+  border: solid 15px;
+  background-color: #006BBB;
+  color: #FFF;
+}
+
+.address-info {
+  width: 250px;
+}
+
+.career-nav {
+  margin: -154px 0px 0 965px;
+}
+
 .check.png {
   margin: 0 0 0 0;
+}
+
+.community-dev {
+  padding: 0 0 0 15px;
+  margin: 15px 0 0 0;
+  float: left;
+}
+
+
+.development-nav {
+  margin: -135px 0px 0px 545px;
 }
 
 div {
@@ -21,17 +47,18 @@ div {
 }
 
 .donate-today {
-  margin: 85px 125px 0 0;
+  margin: 85px 195px 0 0;
   float: right;
-  width: 175px;
+  width: 250px;
 }
 
-
-.community-dev {
-  padding: 0 0 0 15px;
-  margin: 15px 0 0 0;
-  float: left;
+footer {
+  background-color: #E7EAED;
+  height: 500px;
+  margin: 0 0 0 0;
+  display: inline-block;
 }
+
 
 header {
   background-color: #006BBB;
@@ -72,6 +99,21 @@ header > img {
   background-color: #006BBB;
   height: 300px;
   color: #FFF;
+  background-image: url("wrapper-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -230px -130px;
+  background-blend-mode:  darken;
+
+}
+
+.last-wrapper::after {
+  opacity: 0.5;
+
+}
+
+.leadership-nav {
+  margin: -115px 0 0 350px;
 }
 
 .main-navigation {
@@ -111,6 +153,24 @@ header > img {
   margin: 0 0 0 80px;
 }
 
+.nav-footer {
+  height: 400px;
+  margin: 5px 0 0 0;
+}
+
+.nav-footer ul  {
+  margin: 0 50px 0 0;
+  text-decoration: none;
+}
+
+.nav-footer ul li {
+  text-decoration: none;
+}
+
+.nav-style {
+  margin: -205px 0 0 195px;
+}
+
 .our_model.png {
   margin: 0 0 0 50px;
 }
@@ -138,6 +198,10 @@ header > img {
   margin: 0 0 0 -20px;
 }
 
+.support-nav {
+  margin: -96px 0 0 735px;
+}
+
 .trophy.png {
   margin: 0 0 0 0;
 }
@@ -147,9 +211,9 @@ header > img {
 }
 
 .volunteer {
-  margin: 85px 0 0 125px;
+  margin: 85px 0 0 245px;
   float: left;
-  width: 175px;
+  width: 250px;
 }
 
 img {
