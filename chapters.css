@@ -5,6 +5,10 @@ a.btn.btn-default {
   color: #FFF;
 }
 
+.container {
+  background-color: #E7EAED;
+}
+
 .address-info {
   width: 250px;
 }
@@ -54,8 +58,9 @@ div {
 
 footer {
   background-color: #E7EAED;
-  height: 500px;
+  height: 300px;
   margin: 0 0 0 0;
+  text-decoration: none;
 }
 
 
@@ -164,6 +169,12 @@ header > img {
 
 .nav-footer ul li {
   text-decoration: none;
+  list-style: none;
+
+}
+
+.nav-footer h5 {
+  font-weight: bold;
 }
 
 .nav-style {
@@ -208,6 +219,7 @@ header > img {
 .textcloud.png {
   margin: 0 0 0 0;
 }
+
 
 .volunteer {
   margin: 85px 0 0 245px;
