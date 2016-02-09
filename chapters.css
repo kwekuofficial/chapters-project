@@ -1,8 +1,15 @@
+a {
+
+}
+
+
+
 a.btn.btn-default {
   border-color: #FFF
   border: solid 15px;
   background-color: #006BBB;
   color: #FFF;
+  opacity: 0.95;
 }
 
 .container {
@@ -11,10 +18,11 @@ a.btn.btn-default {
 
 .address-info {
   width: 250px;
+  margin: 15px 0 0 0;
 }
 
 .career-nav {
-  margin: -154px 0px 0 965px;
+  margin: -125px 0px 0 965px;
 }
 
 .check.png {
@@ -29,7 +37,7 @@ a.btn.btn-default {
 
 
 .development-nav {
-  margin: -135px 0px 0px 545px;
+  margin: -107px 0px 0px 545px;
 }
 
 div {
@@ -61,18 +69,20 @@ footer {
   height: 300px;
   margin: 0 0 0 0;
   text-decoration: none;
+  font-size: 0.80em;
 }
 
 
 header {
   background-color: #006BBB;
-  height: 110px;
+  height: 150px;
   margin: 0 0 0 0;
+  opacity: 0.95;
 
 }
 
 header > img {
-  margin: 5px 0 0 0;
+  margin: 15px 0 0 0;
   padding: 5px 0 0 0;
   border-style: solid;
   border-color: #FFF;
@@ -117,7 +127,7 @@ header > img {
 }
 
 .leadership-nav {
-  margin: -115px 0 0 350px;
+  margin: -95px 0 0 350px;
 }
 
 .main-navigation {
@@ -130,7 +140,13 @@ header > img {
   display: inline;
   color: #FFF;
   margin: 0 15px 0 0;
+  text-decoration: none;
 
+}
+
+.main-navigation ul li a  {
+  text-decoration: none;
+  color: #FFF;
 }
 
 .mid-navigation {
@@ -173,12 +189,17 @@ header > img {
 
 }
 
+.nav-footer a {
+  color: black;
+  text-decoration: none;
+}
+
 .nav-footer h5 {
   font-weight: bold;
 }
 
 .nav-style {
-  margin: -205px 0 0 195px;
+  margin: -180px 0 0 195px;
 }
 
 .our_model.png {
@@ -209,7 +230,7 @@ header > img {
 }
 
 .support-nav {
-  margin: -96px 0 0 735px;
+  margin: -83px 0 0 770px;
 }
 
 .trophy.png {
@@ -220,6 +241,9 @@ header > img {
   margin: 0 0 0 0;
 }
 
+img > .top_r2_c2.png {
+  margin: 15px 0 0 0;
+}
 
 .volunteer {
   margin: 85px 0 0 245px;
