@@ -16,6 +16,8 @@ a.btn.btn-default {
   background-color: #E7EAED;
 }
 
+
+
 .address-info {
   width: 250px;
   margin: 15px 0 0 0;
@@ -86,6 +88,10 @@ header > img {
   padding: 5px 0 0 0;
   border-style: solid;
   border-color: #FFF;
+}
+
+header > .top_r2_c2 {
+  margin: 15px 0 0 0;
 }
 
 
@@ -241,7 +247,7 @@ header > img {
   margin: 0 0 0 0;
 }
 
-img > .top_r2_c2.png {
+.top_r2_c2.png {
   margin: 15px 0 0 0;
 }
 
