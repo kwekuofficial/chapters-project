@@ -2,9 +2,13 @@ a {
 
 }
 
+.row a.btn.btn-default {
+  background-color: #E7EAED;
+  color: #00355B;
+  border-color: #00355B;
+}
 
-
-a.btn.btn-default {
+.last-wrapper a.btn.btn-default {
   border-color: #FFF
   border: solid 15px;
   background-color: #006BBB;
@@ -12,10 +16,9 @@ a.btn.btn-default {
   opacity: 0.95;
 }
 
-.container {
-  background-color: #E7EAED;
+body {
+  color: #E7EAED;
 }
-
 
 
 .address-info {
@@ -32,9 +35,7 @@ a.btn.btn-default {
 }
 
 .community-dev {
-  padding: 0 0 0 15px;
-  margin: 15px 0 0 0;
-  float: left;
+
 }
 
 
@@ -47,17 +48,15 @@ div {
 }
 
 .donate {
-  float: right;
-  margin: -63px 160px 0 0;
-  padding: 15px;
+
 }
 
 .donate.png {
-    margin: 15px 0 0 -20px;
+
 }
 
 .donate > h3 {
-  margin: -45px 0 0 85px;
+
 }
 
 .donate-today {
@@ -74,12 +73,18 @@ footer {
   font-size: 0.80em;
 }
 
+.headline-text h1 {
+  font-family: "Times New Roman", sans-serif;
+}
 
 header {
   background-color: #006BBB;
+  width: 100%;
   height: 150px;
   margin: 0 0 0 0;
   opacity: 0.95;
+  position: absolute;
+  top: 0;
 
 }
 
@@ -90,29 +95,26 @@ header > img {
   border-color: #FFF;
 }
 
-header > .top_r2_c2 {
-  margin: 15px 0 0 0;
-}
 
 
 .headline-container {
   background-image: url("main-photo.jpg");
-
   background-size: cover;
-  width: 1140px;
-  height: 570px;
+  height: 944px;
+  margin-top: -100px;
 
 }
 
 .headline-text {
   width: 450px;
-  margin: 35px 15px 0 0;
+  margin: 360px 15px 0 0;
   float: right;
   color: #00355B;
-  font-weight: bold;
 }
 
-
+.icons {
+  float: left;
+}
 
 .last-wrapper {
   margin: 0 0 0 0;
@@ -123,22 +125,29 @@ header > .top_r2_c2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -230px -130px;
-  background-blend-mode:  darken;
-
+  background-blend-mode: darken;
 }
 
 .last-wrapper::after {
   opacity: 0.5;
+}
 
+.last-wrapper h3 {
+  font-family: "Times New Roman", sans-serif;
 }
 
 .leadership-nav {
   margin: -95px 0 0 350px;
 }
 
+.logo {
+  display: block;
+  padding: 20px 0 0 10px;
+}
+
 .main-navigation {
-  margin: 15px 0 0 0;
-  float: right;
+  font-family: "Times New Roman", sans-serif;
+  margin: 65px 0 0 140px;
 }
 
 
@@ -147,6 +156,7 @@ header > .top_r2_c2 {
   color: #FFF;
   margin: 0 15px 0 0;
   text-decoration: none;
+  font-size: 1.25em;
 
 }
 
@@ -156,10 +166,19 @@ header > .top_r2_c2 {
 }
 
 .mid-navigation {
-  width: 1140px;
   height: 100px;
   background-color: #FFB133;
-  margin: -115px 0 0 0;
+  margin-top: -50px;
+}
+
+.model-icon {
+  float: left;
+  padding-right: 10px;
+}
+
+.model-photo {
+  margin: 0 0 0 445px;
+  padding: 15px 15px 15px 15px;
 }
 
 .model-tab {
@@ -167,7 +186,6 @@ header > .top_r2_c2 {
 }
 
 .model-text {
-  width: 575px;
   margin: 0 0 0 0;
 }
 
@@ -208,31 +226,34 @@ header > .top_r2_c2 {
   margin: -180px 0 0 195px;
 }
 
+.our-model {
+  margin: 0 0 0 0;
+}
+
 .our_model.png {
   margin: 0 0 0 50px;
 }
 
 .our-model.png {
-  margin: 0 40px 0 600px;
+  margin: 0 0 0 60px;
+  padding: 5px 5px 5px 5px;
 }
 
 .right-side {
-  margin: -495px 0 0 0;
-  float: right;
+  margin: 0 0 0 0;
 }
 
 .support-us {
-  margin: 0 0 0 495px;
-  padding: 15px 0 0 0;
+
 }
 
 .support-us > h3 {
-  margin: -45px 0 0 85px;
+
 }
 
 
 .support.png {
-  margin: 0 0 0 -20px;
+
 }
 
 .support-nav {
@@ -248,7 +269,7 @@ header > .top_r2_c2 {
 }
 
 .top_r2_c2.png {
-  margin: 15px 0 0 0;
+
 }
 
 .volunteer {
