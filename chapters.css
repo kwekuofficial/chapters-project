@@ -9,11 +9,12 @@ a {
 }
 
 .last-wrapper a.btn.btn-default {
-  border-color: #FFF
-  border: solid 15px;
+  border-color: #FFF;
+  border: solid 2px;
   background-color: #006BBB;
   color: #FFF;
-  opacity: 0.95;
+  background-blend-mode: darken;
+  opacity: 0.90;
 }
 
 body {
@@ -26,9 +27,6 @@ body {
   margin: 15px 0 0 0;
 }
 
-.career-nav {
-  margin: -125px 0px 0 965px;
-}
 
 .check.png {
   margin: 0 0 0 0;
@@ -38,9 +36,8 @@ body {
 
 }
 
-
-.development-nav {
-  margin: -107px 0px 0px 545px;
+.development-tab p {
+  padding: 5px 0 0 0;
 }
 
 div {
@@ -67,10 +64,10 @@ div {
 
 footer {
   background-color: #E7EAED;
-  height: 300px;
   margin: 0 0 0 0;
   text-decoration: none;
   font-size: 0.80em;
+  padding: 15px;
 }
 
 .headline-text h1 {
@@ -106,10 +103,19 @@ header > img {
 }
 
 .headline-text {
-  width: 450px;
-  margin: 360px 15px 0 0;
+  width: 415px;
   float: right;
   color: #00355B;
+  margin: 295px -130px 0 0;
+}
+
+.headline-text h1 {
+  font-size: 60px;
+  font-stretch: semi-expanded;
+}
+
+.headline-text p {
+  font-size: 16px;
 }
 
 .icons {
@@ -119,13 +125,13 @@ header > img {
 .last-wrapper {
   margin: 0 0 0 0;
   background-color: #006BBB;
-  height: 300px;
+  height: 370px;
   color: #FFF;
   background-image: url("wrapper-photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -230px -130px;
   background-blend-mode: darken;
+  background-position: -331px -244px;
 }
 
 .last-wrapper::after {
@@ -136,6 +142,10 @@ header > img {
   font-family: "Times New Roman", sans-serif;
 }
 
+.last-wrapper p {
+  font-size: 16px;
+}
+
 .leadership-nav {
   margin: -95px 0 0 350px;
 }
@@ -143,11 +153,12 @@ header > img {
 .logo {
   display: block;
   padding: 20px 0 0 10px;
+  margin: 0 0 0 -45px;
 }
 
 .main-navigation {
   font-family: "Times New Roman", sans-serif;
-  margin: 65px 0 0 140px;
+  margin: 65px 0 0 -196px;
 }
 
 
@@ -156,7 +167,7 @@ header > img {
   color: #FFF;
   margin: 0 15px 0 0;
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1.55em;
 
 }
 
@@ -200,10 +211,10 @@ header > img {
 .nav-footer {
   height: 400px;
   margin: 5px 0 0 0;
+  padding: 20px;
 }
 
 .nav-footer ul  {
-  margin: 0 50px 0 0;
   text-decoration: none;
 }
 
@@ -220,6 +231,12 @@ header > img {
 
 .nav-footer h5 {
   font-weight: bold;
+}
+
+.nav-lead {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px 0 0 0;
 }
 
 .nav-style {
@@ -244,13 +261,8 @@ header > img {
 }
 
 .support-us {
-
+  margin: 0 0 0 0;
 }
-
-.support-us > h3 {
-
-}
-
 
 .support.png {
 
