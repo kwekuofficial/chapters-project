@@ -3,7 +3,6 @@ a {
 }
 
 .row a.btn.btn-default {
-  background-color: #E7EAED;
   color: #00355B;
   border-color: #00355B;
 }
@@ -13,8 +12,7 @@ a {
   border: solid 2px;
   background-color: #006BBB;
   color: #FFF;
-  background-blend-mode: darken;
-  opacity: 0.90;
+  opacity: 0.75;
 }
 
 body {
@@ -33,7 +31,7 @@ body {
 }
 
 .community-dev {
-
+  margin: 0 0 0 -80px;
 }
 
 .development-tab p {
@@ -70,9 +68,7 @@ footer {
   padding: 15px;
 }
 
-.headline-text h1 {
-  font-family: "Times New Roman", sans-serif;
-}
+
 
 header {
   background-color: #006BBB;
@@ -103,23 +99,24 @@ header > img {
 }
 
 .headline-text {
-  width: 415px;
   float: right;
   color: #00355B;
-  margin: 295px -130px 0 0;
+  margin: 295px -230px 0 0;
 }
 
 .headline-text h1 {
-  font-size: 60px;
-  font-stretch: semi-expanded;
+  font-size: 55px;
+  font-family: "Times New Roman", sans-serif;
 }
 
 .headline-text p {
-  font-size: 16px;
+  font-size: 20px;
+  width: 415px;
 }
 
 .icons {
   float: left;
+  margin: -20px 0 0 115px;
 }
 
 .last-wrapper {
@@ -156,6 +153,11 @@ header > img {
   margin: 0 0 0 -45px;
 }
 
+.logo-text {
+  margin: 40px 0 0 0;
+  width: 475px;
+}
+
 .main-navigation {
   font-family: "Times New Roman", sans-serif;
   margin: 65px 0 0 -196px;
@@ -180,11 +182,38 @@ header > img {
   height: 100px;
   background-color: #FFB133;
   margin-top: -50px;
+  text-decoration: none;
+}
+
+.mid-navigation a {
+  text-decoration: none;
+  color: #00355B;
+}
+
+.mid-navigation a::after {
+  text-decoration: none;
+
 }
 
 .model-icon {
   float: left;
   padding-right: 10px;
+}
+
+.model-info {
+  width: 780px;
+}
+
+.model-info h3 {
+  margin: 0 0 0 0;
+  font-family: "Times New Roman" ,sans-serif;
+  color: #00355B;
+  padding: 0 0 5px 5px;
+  font-size: 32px;
+}
+
+.model-info p {
+  padding: 10px 0 10px 0;
 }
 
 .model-photo {
@@ -198,6 +227,7 @@ header > img {
 
 .model-text {
   margin: 0 0 0 0;
+
 }
 
 .model-text img {
@@ -212,6 +242,7 @@ header > img {
   height: 400px;
   margin: 5px 0 0 0;
   padding: 20px;
+  width: 250px;
 }
 
 .nav-footer ul  {
@@ -221,6 +252,7 @@ header > img {
 .nav-footer ul li {
   text-decoration: none;
   list-style: none;
+  padding: 5px 0 5px 0;
 
 }
 
@@ -236,15 +268,18 @@ header > img {
 .nav-lead {
   font-weight: bold;
   font-size: 13px;
-  padding: 5px 0 0 0;
+  padding: 5px 0 5px 0;
 }
 
 .nav-style {
   margin: -180px 0 0 195px;
 }
 
+
+
 .our-model {
   margin: 0 0 0 0;
+  padding: 20px;
 }
 
 .our_model.png {
@@ -260,6 +295,7 @@ header > img {
   margin: 0 0 0 0;
 }
 
+
 .support-us {
   margin: 0 0 0 0;
 }
@@ -270,6 +306,10 @@ header > img {
 
 .support-nav {
   margin: -83px 0 0 770px;
+}
+
+.sustainable-communities {
+
 }
 
 .trophy.png {
